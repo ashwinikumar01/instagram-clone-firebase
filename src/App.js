@@ -80,7 +80,10 @@ const App = () => {
       })
       .catch((error) => alert(error.message));
 
-    setOpenSignIn(false);
+    setOpen(false);
+    setUsername("");
+    setEmail("");
+    setPassword("");
   };
 
   const signIn = (event) => {
